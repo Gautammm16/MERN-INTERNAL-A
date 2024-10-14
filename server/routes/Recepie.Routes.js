@@ -31,8 +31,8 @@ router.delete("/delete/:id",async(req,res)=>{
 })
 
 
-router.search("/search:id",(req,res)=>{
+// router.search("/search:id",(req,res)=>{
     
-})
+// })
 
 export default router;

@@ -1,0 +1,27 @@
+GET http://localhost:3000/api/allreceipe
+
+
+###
+
+POST http://localhost:3000/api/createrec
+Content-Type: application/json
+
+{
+    "name":"pizza",
+    "timetaken":"fifteen",
+    "category":"fastfood"
+}
+###
+
+PUT http://localhost:3000/api/updaterec/670cfc6f01daf34a23b55b0e
+Content-Type: application/json
+
+{
+     "name":"burger",
+    "timetaken":"fifteen",
+    "category":"fastfood"
+}
+
+###
+
+DELETE http://localhost:3000/api/delete/670cfc6f01daf34a23b55b0e

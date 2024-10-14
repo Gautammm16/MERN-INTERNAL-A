@@ -6,11 +6,11 @@ POST http://localhost:3000/api/create
 Content-Type: application/json
 
 {
-     "name":"gautam",
-    "ingredeients":"gautam",
-    "instruction":"gautam",
-    "preparationTime":"gautam",
-    "Category":"gautam"
+    "name":"who",
+    "ingredeients":"are",
+    "instruction":"you",
+    "preparationTime":"asdad",
+    "Category":"dasadada"
 }
 
 ###

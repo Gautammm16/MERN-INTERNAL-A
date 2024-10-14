@@ -1,0 +1,32 @@
+GET http://localhost:3000/api/getall
+
+###
+
+POST http://localhost:3000/api/create
+Content-Type: application/json
+
+{
+     "name":"gautam",
+    "ingredeients":"gautam",
+    "instruction":"gautam",
+    "preparationTime":"gautam",
+    "Category":"gautam"
+}
+
+###
+DELETE  http://localhost:3000/api/delete/670cd947d1cb923cfb8d6270
+Content-Type: application/json
+
+
+###
+
+PUT  http://localhost:3000/api/update/670cd947d1cb923cfb8d6270
+Content-Type: application/json
+
+{
+      "name":"idk",
+    "ingredeients":"idk",
+    "instruction":"idk",
+    "preparationTime":"idk",
+    "Category":"idk"
+}

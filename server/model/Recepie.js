@@ -1,11 +1,12 @@
 import mongoose from "mongoose";
 
 const receipeSchema = new mongoose.Schema({
-    name:String,
-    ingredeients:String,
-    instruction:String,
-    preparationTime:String,
-    Category:String
+    name: { type: String },
+  ingredients: { type: String },
+  instructions: { type: String },
+  preparationTime: { type: String },
+  category: { type: String }
+
 })
 
 export default mongoose.model("recepie",receipeSchema);

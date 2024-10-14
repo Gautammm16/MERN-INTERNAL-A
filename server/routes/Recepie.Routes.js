@@ -23,7 +23,7 @@ router.put("/update/:id",async(req,res)=>{
 })
 
 router.delete("/delete/:id",async(req,res)=>{
-    const del =await Receipe.findOneAndDelete(req.params.id);
+    const del =await Receipe.deleteMany(req.body);
     if(!del) return res.json({message:"not deleted"});
     res.json({message:"data deleted Successfully"});
 

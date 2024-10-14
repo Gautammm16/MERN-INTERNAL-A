@@ -14,7 +14,11 @@ db.once("open",()=>{
     console.log("database connection established");
 })
 
-app.use(cors(origin="http://localhost:5173"));
+app.use(cors({
+    origin:"http://localhost:5173"
+}
+    
+));
 app.use("/api",ReceipeRoutes);
 
 
